@@ -1,7 +1,10 @@
-# test coverage for  [dependency-check (v2.8.0)](https://github.com/maxogden/dependency-check)  [![npm package](https://img.shields.io/npm/v/npmtest-dependency-check.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dependency-check) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dependency-check.svg)](https://travis-ci.org/npmtest/node-npmtest-dependency-check)
+# npmtest-dependency-check
+
+#### basic test coverage for  [dependency-check (v2.8.0)](https://github.com/maxogden/dependency-check)  [![npm package](https://img.shields.io/npm/v/npmtest-dependency-check.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dependency-check) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dependency-check.svg)](https://travis-ci.org/npmtest/node-npmtest-dependency-check)
+
 #### checks which modules you have used in your code and then makes sure they are listed as dependencies in your package.json
 
-[![NPM](https://nodei.co/npm/dependency-check.png?downloads=true)](https://www.npmjs.com/package/dependency-check)
+[![NPM](https://nodei.co/npm/dependency-check.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/dependency-check)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-dependency-check/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-dependency-check/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-dependency-check/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dependency-check/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dependency-check/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-dependency-check/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-dependency-check/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-dependency-check/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-dependency-check/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-dependency-check/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-dependency-check%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-dependency-check/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-dependency-check/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-dependency-check/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-dependency-check/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-dependency-check%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-dependency-check/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-dependency-check/build/test-report.html](https://npmtest.github.io/node-npmtest-dependency-check/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-dependency-check/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-dependency-check/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-dependency-check/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-dependency-check/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-dependency-check/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-dependency-check/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-dependency-check/build/screenCapture.npmPackageListing.svg)
 
@@ -62,21 +71,17 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "blakeembrey",
-            "email": "hello@blakeembrey.com"
+            "name": "blakeembrey"
         },
         {
-            "name": "maxogden",
-            "email": "max@maxogden.com"
+            "name": "maxogden"
         },
         {
-            "name": "voxpelli",
-            "email": "pelle@kodfabrik.se"
+            "name": "voxpelli"
         }
     ],
     "name": "dependency-check",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/maxogden/dependency-check.git"
